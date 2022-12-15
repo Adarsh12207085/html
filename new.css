@@ -1,0 +1,47 @@
+a:hover {
+    background-color: steelblue;
+    font-size: 24px;
+    color: white;
+    padding: 12px;
+}
+
+a:active {
+    background-color: steelblue;
+    font-size: 24px;
+    color: white;
+    padding: 12px;
+}
+
+a:visited {
+    background-color: steelblue;
+    font-size: 12px;
+    color: red;
+    padding: 22px;
+}
+
+a:link {
+    background-color: orange;
+    font-size: 24px;
+    color: green;
+    padding: 32px;
+}
+
+p::after {
+    content: "commented hello";
+    color: violet;
+    background-color: gray;
+}
+
+p::before {
+    content: "commented hello";
+    color: violet;
+    background-color: gray;
+}
+
+p:nth-child(even) {
+    color: red;
+}
+
+p:first-child {
+    color: green;
+}

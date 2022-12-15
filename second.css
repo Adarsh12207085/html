@@ -1,0 +1,15 @@
+p,#new2 {
+    background-color:blue;
+    text-align: right;
+}
+
+#new1 {
+    text-align:right;
+    color:bisque;
+
+}
+#new3 {
+    text-align:left;
+    color:blue;
+    background-color: blanchedalmond;
+}

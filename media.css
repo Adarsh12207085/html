@@ -1,0 +1,27 @@
+@media screen{
+p {
+        color:rgb(120,240,120);
+background-color: #0045ff;
+font-size: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+}
+@media print{
+    p {
+            color:rgb(120,240,120);
+    background-color: #00ff00;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        }
+    }
+    @media (max-width:500px){
+        p {
+                color:aqua;
+        background-color: steelblue;
+        font-size: 10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+            }
+        }

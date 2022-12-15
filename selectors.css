@@ -1,0 +1,11 @@
+/* selectors there are types of selectors in css that is 
+1)id selector
+2) class selector
+3)universal selectors 
+4)grouping selectors
+*/
+.center {
+    text-align: right;
+    color: red;
+
+}
